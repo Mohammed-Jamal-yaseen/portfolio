@@ -34,7 +34,7 @@ export default function RootLayout({
 					<header>
 						<Navbar />
 					</header>
-					<main className='h-screen  '>{children}</main>
+					<main className='h-screen pt-16 md:pt-24 lg:pt-40 '>{children}</main>
 					<footer>footer</footer>
 				</div>
 			</body>
